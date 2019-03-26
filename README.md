@@ -9,9 +9,9 @@ Python 3.7 or later with the following `pip3 install -U -r requirements.txt` pac
 - `tqdm`
 # Data
 - Data training :3600 images (size 1000x2000) 
-- Data test 900 images
+- Data test :  900 images
 # How to training 
-- Start Training: Run train.py --cfg 'cfg/yolov3.cfg' --img-size 416
+- Start Training: Run train.py --cfg cfg/yolov3.cfg --img-size 416
 # Inference
 
 - Run `detect.py` to apply trained weights to an image, such as `car.jpg` from the `test` folder.

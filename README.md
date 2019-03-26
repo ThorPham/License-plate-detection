@@ -12,19 +12,22 @@ Python 3.7 or later with the following `pip3 install -U -r requirements.txt` pac
 - Data test 900 images
 # Inference
 
-Run `detect.py` to apply trained weights to an image, such as `car.jpg` from the `test` folder.
-Link weight  : https://drive.google.com/file/d/1hTH0Qj-fpxMnqnSzRTq64KPwkrPnGxsJ/view?usp=sharing
+- Run `detect.py` to apply trained weights to an image, such as `car.jpg` from the `test` folder.
+
+- Link weight  : https://drive.google.com/file/d/1hTH0Qj-fpxMnqnSzRTq64KPwkrPnGxsJ/view?usp=sharing
+
+# Some demo
 <img src="https://github.com/ThorPham/License-plate-detection/blob/master/output/image_15.png" width="600">
 <img src="https://github.com/ThorPham/License-plate-detection/blob/master/output/image_843.png" width="600">
 <img src="https://github.com/ThorPham/License-plate-detection/blob/master/output/image_823.png">
 
-## Webcam
+# Webcam
 
-Run `detect.py` with `webcam=True` to show a live webcam feed.
+- Run `detect.py` with `webcam=True` to show a live webcam feed.
 
 **YOLOv3:** `python3 detect.py --cfg cfg/yolov3.cfg --weights weights/weight.pt`
 
- #mAP
+# mAP
 
 - Use `test.py --weights weights/weight.pt` to test YOLOv3 weights.
-MAP YOLOv3-416 : 97
+- MAP YOLOv3-416 : 97

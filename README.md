@@ -21,7 +21,7 @@ Python 3.7 or later with the following `pip3 install -U -r requirements.txt` pac
 # Some demo
 <img src="https://github.com/ThorPham/License-plate-detection/blob/master/output/image_15.png" width="600">
 <img src="https://github.com/ThorPham/License-plate-detection/blob/master/output/image_843.png" width="600">
-<img src="https://github.com/ThorPham/License-plate-detection/blob/master/output/image_823.png">
+<img src="https://github.com/ThorPham/License-plate-detection/blob/master/output/image_823.png" width="600">
 
 # Webcam
 

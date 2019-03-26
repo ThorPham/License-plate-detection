@@ -25,7 +25,8 @@ Python 3.7 or later with the following `pip3 install -U -r requirements.txt` pac
 
 - Run `detect.py` with `webcam=True` to show a live webcam feed.
 
-**YOLOv3:** `python3 detect.py --cfg cfg/yolov3.cfg --weights weights/weight.pt`
+# Test
+- `python3 detect.py --cfg cfg/yolov3.cfg --weights weights/weight.pt`
 
 # mAP
 
